@@ -4,9 +4,9 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'United Healthcare Provider Login'
-copyright = '2025, UnitedHealthcare'
-author = 'UnitedHealthcare, Inc.'
+project = 'Home Depot Credit Card Login'
+copyright = '2025, The Home Depot'
+author = 'The Home Depot, Inc.'
 release = '1.0.0'
 
 # -- General configuration ---------------------------------------------------
@@ -18,7 +18,7 @@ extensions = [
     'sphinx.ext.todo',
 ]
 
-templates_path = ['_templates']  # ensures layout.html override works
+templates_path = ['_templates']  # for layout.html override
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_static_path = ['_static']
 
@@ -27,8 +27,8 @@ html_static_path = ['_static']
 html_theme = 'furo'
 html_logo = 'logo.png'
 html_favicon = 'favicon.ico'
-html_title = "United Healthcare Provider Login – Secure Access Portal"
-html_short_title = "UHC Provider Login"
+html_title = "HomeDepot.com/mycard – Manage Your Home Depot Credit Card Online"
+html_short_title = "Home Depot MyCard"
 html_show_sourcelink = False
 
 html_theme_options = {
@@ -40,7 +40,7 @@ html_theme_options = {
     "source_repository": None,
     "source_branch": None,
     "source_directory": None,
-    "show_powered_by": False,  # has no effect in Furo but fine to keep
+    "show_powered_by": False,
 }
 
-html_css_files = ['custom.css']  # hide footer via CSS
+html_css_files = ['custom.css']  # used to hide the footer via CSS

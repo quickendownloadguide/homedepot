@@ -27,3 +27,7 @@ img.logo__image,
 .sidebar-logo-container {
     display: none !important;
 }
+
+footer .theme-footer {
+    display: none !important;
+}
